@@ -1,0 +1,36 @@
+
+
+@media screen and(max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{
+        padding: 0 2%;
+    }
+}
+/*small phones to small tablet from 768 to 1023px*/
+@media screen and(max-width: 1024px) {
+    body { font-size: 18;}
+    section { padding: 60px 0;}
+    .location_card{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+/*small phones to small tablet from 481 to 767px*/
+@media screen and(max-width: 767px) {
+    .hero-text-box {
+        width: 60%;
+        padding: 0 2%;
+    }
+    .row{ padding: 0 2%;}
+    body{ font-size: 16;} 
+    
+}
+
+
+/* small phones
+@media screen and (max-width: 480px) {
+    
+} */
